@@ -3,27 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Falcon's Restaurant</title>
+    <title>Image Carousel</title>
 </head>
 <body>
-    <div class="shadow">
-        <header>
-            <nav>
-                <button id="home">Home</button>
-                <button id="menu">Menu</button>
-                <button id="about">About</button>
-                <button id="contact">Contact</button>
-                <div class="github">
-                    <a href="https://github.com/RubyFalcon" target="_blank">
-                        <svg class="icon_github" viewBox="0 0 32 32">
-                            <path d="M16.0018,0A16.2088,16.2088,0,0,0,0,16.4223,16.4156,16.4156,0,0,0,10.7179,31.9376c.84.2166.7114-.3966.7114-.8153v-2.846c-4.8513.5839-5.0479-2.7138-5.3732-3.2646-.6578-1.1531-2.213-1.4469-1.7482-1.9977,1.1047-.5839,2.2308.1469,3.5357,2.1262.9438,1.4359,2.7849,1.1935,3.718.9548a4.664,4.664,0,0,1,1.24-2.2327c-5.0264-.9254-7.1214-4.0762-7.1214-7.8219A7.3467,7.3467,0,0,1,7.4074,11.204a6.5675,6.5675,0,0,1,.1752-4.4067C9.66,6.6064,11.819,8.325,11.987,8.4609a15.14,15.14,0,0,1,4.0362-.5,15.1577,15.1577,0,0,1,4.0577.51c.404-.3158,2.406-1.7921,4.3365-1.6121a6.6124,6.6124,0,0,1,.1966,4.3332,7.3488,7.3488,0,0,1,1.7482,4.8584c0,3.7531-2.1093,6.9075-7.15,7.8182a4.7469,4.7469,0,0,1,1.362,3.3418v4.1313c.0286.3305,0,.6573.5363.6573A16.4082,16.4082,0,0,0,32,16.426,16.2136,16.2136,0,0,0,16.0018,0Z"></path>
-                        </svg>
-                    </a>
+    
+        <main>
+            <section aria-label="newest-photos">
+                <div class="carousel">
+                    <button class="carousel-btn prev">&#8606;</button>
+                    <button class="carousel-btn next">&#8608;</button>
+                    <ul>
+                        <li class="slide">
+                            <img
+                            src="https://images.unsplash.com/photo-1735749108587-295bbaa96f43?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Footprints in a snow covered field"
+                            >
+                        </li>
+                        <li class="slide">
+                            <img
+                            src="https://plus.unsplash.com/premium_photo-1736895377297-2c6c33bfa988?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="A piece of watermelon on a fork"
+                            >
+                        </li>
+                        <li class="slide">
+                            <img
+                            src="https://images.unsplash.com/photo-1738451134973-d99e4fb12c99?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D"
+                            alt="A brown horse standing on top of a grass covered field"
+                            >
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-            
-        </header>
-        <div class="content"></div>
-    </div>
+            </section>
+        </main>
+  
 </body>
 </html>
